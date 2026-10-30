@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "profile": "python-research",
+  "root_entries": ["SKILL.md", "agents", "references"],
+  "paths": {
+    "source": ["scripts/**"],
+    "docs": ["SKILL.md", "references/**", "docs/**"]
+  },
+  "exceptions": []
+}

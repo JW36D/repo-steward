@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="460" viewBox="0 0 1600 460" role="img" aria-labelledby="title desc">
+  <title id="title">The Repo Steward workflow</title>
+  <desc id="desc">Understand the repository, choose a home for new files, verify changes, and leave a clear handoff.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#10182c"/><stop offset="1" stop-color="#080e1c"/></linearGradient>
+    <linearGradient id="edge"><stop stop-color="#63d8ff"/><stop offset="1" stop-color="#c3f569"/></linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#24304a" stroke-width=".6" opacity=".4"/></pattern>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0 0L8 4L0 8" fill="none" stroke="#63d8ff" stroke-width="1.5"/></marker>
+  </defs>
+  <rect width="1600" height="460" rx="28" fill="url(#bg)"/>
+  <rect width="1600" height="460" rx="28" fill="url(#grid)"/>
+  <g font-family="ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif">
+    <text x="70" y="65" font-size="14" font-weight="700" letter-spacing="4" fill="#a3b4cd">THE REPO STEWARD LOOP</text>
+    <text x="70" y="112" font-size="32" font-weight="700" fill="#f0f6ff">Small rules. Clear ownership. A readable repository.</text>
+    <g fill="#151f34" stroke="#30425e" stroke-width="1.5">
+      <rect x="70" y="157" width="320" height="198" rx="18"/>
+      <rect x="450" y="157" width="320" height="198" rx="18"/>
+      <rect x="830" y="157" width="320" height="198" rx="18"/>
+      <rect x="1210" y="157" width="320" height="198" rx="18"/>
+    </g>
+    <g stroke="#63d8ff" stroke-width="2" fill="none" marker-end="url(#arrow)">
+      <path d="M400 256H436"/><path d="M780 256H816"/><path d="M1160 256H1196"/>
+    </g>
+    <g font-size="16" font-weight="700" fill="#c3f569">
+      <text x="96" y="197">01</text><text x="476" y="197">02</text><text x="856" y="197">03</text><text x="1236" y="197">04</text>
+    </g>
+    <g font-size="25" font-weight="750" fill="#f0f6ff">
+      <text x="96" y="239">UNDERSTAND</text><text x="476" y="239">PLACE</text><text x="856" y="239">VERIFY</text><text x="1236" y="239">HAND OFF</text>
+    </g>
+    <g font-size="17" fill="#aabbd3">
+      <text x="96" y="278">Read the map.</text><text x="96" y="306">Find existing entrypoints.</text>
+      <text x="476" y="278">Reuse the nearest module.</text><text x="476" y="306">Give each file a role.</text>
+      <text x="856" y="278">Check the changed paths.</text><text x="856" y="306">Use the project’s tests.</text>
+      <text x="1236" y="278">Update real entrypoints.</text><text x="1236" y="306">Account for scratch work.</text>
+    </g>
+    <path d="M1370 365V401H230V368" fill="none" stroke="url(#edge)" stroke-width="1.5" opacity=".6" marker-end="url(#arrow)"/>
+    <text x="800" y="437" text-anchor="middle" font-size="13" fill="#8194b2">Preserve the project’s conventions · Add only what the current work needs</text>
+  </g>
+</svg>

@@ -1,0 +1,4 @@
+interface:
+  display_name: "科研项目管家"
+  short_description: "管理科研复现与算法开发的文件归属、导航和实验产物生命周期"
+  default_prompt: "使用 $repo-steward 检查当前科研项目的结构，并按现有约定改进文件归属与导航。"

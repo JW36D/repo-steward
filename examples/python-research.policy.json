@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "profile": "python-research",
+  "root_entries": [
+    "README.md", "pyproject.toml", "train.py", "evaluate.py", "robot_policy",
+    "configs", "assets", "data", "checkpoints", "runs", "tests"
+  ],
+  "paths": {
+    "source": ["robot_policy/**"],
+    "data": ["data/**"],
+    "checkpoint": ["checkpoints/**"],
+    "output": ["runs/**"],
+    "temporary": [".scratch/**"]
+  },
+  "exceptions": []
+}
